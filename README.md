@@ -10,7 +10,7 @@ ____
 Here I implemented CRUD for posts on the front page.
 ### Installation
 In order to see how this application works you can install it on your local computer:
-1. Download files from the `git` repository
+1. Download files from the `git` repository or clone files with command `git clone git@github.com:nicotini/inertia-vue-laravel.git`
 2. Change the directory (with this project)
 3. Open the terminal and typed `composer install` - in order to install all the laravel dependences
 4. `npm install`  This command install all needed packagies for the project
