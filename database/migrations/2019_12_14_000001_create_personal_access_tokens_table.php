@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('personal_access_tokens', function (Blueprint $table) {
             $table->id();
             $table->engine = 'InnoDB';
-            $table->charset = 'utf8mb4';
-            $table->collation = 'utf8mb4_unicode_ci';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_unicode_ci';
             $table->morphs('tokenable');
             $table->string('name');
             $table->string('token', 64)->unique();
